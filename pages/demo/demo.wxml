@@ -1,0 +1,4 @@
+<!--pages/demo/demo.wxml-->
+<view class="userinfo">
+  <image bindtouchstart="handts"  bindtouchend="handend" bindtap="bindViewTap" class="avatar1" src="{{userInfo1}}"></image>
+</view>
